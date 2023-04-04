@@ -1,6 +1,6 @@
 module github.com/blablatov/grpc-dsn-dbms/grpc-redis
 
-go 1.18
+go 1.20
 
 require github.com/go-redis/redis/v8 v8.11.5
 
