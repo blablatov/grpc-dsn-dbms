@@ -8,12 +8,6 @@ import (
 	"github.com/go-redis/redis/v8"
 )
 
-/*type RedisData struct {
-	Name        string
-	Description string
-	Price       string
-}*/
-
 var ctx = context.Background()
 
 func GetRedis(Id string, wg sync.WaitGroup, chg chan string) {
